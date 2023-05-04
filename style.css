@@ -1,0 +1,115 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: lightblue;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 520px;
+    height: auto;
+    margin: 100px auto;
+    background-color: #131212;
+
+    border-radius: 5px;
+}
+
+.base {
+    width: 100%;
+
+    margin: 0;
+    overflow: hidden;
+    display: block;
+    float: none;
+}
+
+.block {
+    width: 135px;
+    padding: 5px 20px;
+
+    margin-left: 20px;
+    display: inline-block;
+}
+
+.base h4 {
+    font-size: 26px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    margin-top: 0px;
+    box-shadow: 0px 2px lightgoldenrodyellow;
+    background: gold;
+    font-size: 34px;
+    color: black;
+    margin-bottom: 5px;
+}
+
+.title {
+    font-size: 20px;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    line-height: 1;
+    letter-spacing: 1px;
+    word-spacing: 2.7px;
+    color: black;
+}
+
+input[type=text] {
+    width: 140px;
+    margin: auto;
+    outline: none;
+    min-height: 50px;
+    border: 2px solid burlywood;
+    padding: 12px;
+    background-color: lightgoldenrodyellow;
+    border-radius: 2px;
+    color: black;
+    font-size: 17px;
+}
+
+input[type=text]:focus {
+    background-color: white;
+    border: 2px solid burlywood;
+    outline: none;
+}
+
+input[type=button] {
+    width: 150px;
+    margin-left: 35%;
+    margin-top: 40px;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    background-color: gold;
+    color: black;
+    padding: 14px 16px;
+    text-align: center;
+
+    font-size: 16px;
+}
+
+input[type=button]:hover {
+    background-color: lightgoldenrodyellow;
+}
+
+#age {
+    display: block;
+    margin: 10px;
+    margin-top: 35px;
+    padding: 10px;
+    padding-bottom: 20px;
+    overflow: hidden;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 23px;
+    font-weight: normal;
+    line-height: 1.5;
+    word-spacing: 2.7px;
+    color: black;
+}
